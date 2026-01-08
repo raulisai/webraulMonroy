@@ -1,46 +1,27 @@
-# Astro Starter Kit: Basics
+# 👨🏻‍💻 Porfolio para programadores y desarrolladores
 
-```sh
-npm create astro@latest -- --template basics
-```
+<div align="center">
+<a href="https://porfolio.dev/">
+<img src="./public/porfolio.webp">
+</a>
+<p></p>
+</div>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<div align="center">
 
-## 🚀 Project Structure
+![Astro Badge](https://img.shields.io/badge/Astro-FF3E00?logo=astro&logoColor=fff&style=flat)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/midudev/porfolio.dev)
+![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/porfolio.dev)
+![GitHub forks](https://img.shields.io/github/forks/midudev/porfolio.dev)
+![GitHub issues](https://img.shields.io/github/issues/midudev/porfolio.dev)
 
-Inside of your Astro project, you'll see the following folders and files:
+</div>
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## 🫂 Contribuidores
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+<a href="https://github.com/midudev/porfolio.dev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" />
+</a>
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<p></p>

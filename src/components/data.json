@@ -1,0 +1,173 @@
+{
+    "personalInfo": {
+        "name": "RAUL ISAI MONRROY ROMERO",
+        "label": "Software Engineer",
+        "image": "/me.jpg",
+        "email": "raulisai97@gmail.com",
+        "phone": "55 7617 6856",
+        "location": "CDMX",
+        "linkedin": "https://www.linkedin.com/in/raul-isai-monroy-romero-39b58a167/",
+        "github": "https://github.com/raulisai",
+        "summary": "Software Engineer specializing in DevOps, Site Reliability Engineering, and Web Development. Proven track record in optimizing cloud infrastructure, implementing CI/CD pipelines, and developing scalable web applications."
+    },
+    "experience": [
+        {
+            "date": "DIC 2022 – Actualidad",
+            "title": "DevOps",
+            "company": "Santander",
+            "location": "CDMX",
+            "description": "Cultura DevOps con metodologías ágiles. Reconfiguración automatizada de servicios de clúster mediante scripts, logrando una reducción de hasta el 30% en el consumo de recursos.",
+            "tags": [
+                "Python",
+                "Openshift",
+                "Jenkins",
+                "Git Action"
+            ]
+        },
+        {
+            "date": "Nov 2020 - Dic 2022",
+            "title": "Site Reliability Engineer",
+            "company": "Televisa",
+            "location": "CDMX",
+            "description": "Realización de despliegues en producción y resolución de incidentes críticos para asegurar la confiabilidad del servicio. Despliegue de aplicaciones en AWS y on-premise.",
+            "tags": [
+                "Microservicios",
+                "AWS CI/CD",
+                "TroubleShooting"
+            ]
+        },
+        {
+            "date": "Mayo 2019 – Nov 2020",
+            "title": "Web developer",
+            "company": "Indra Sistemas",
+            "location": "CDMX",
+            "description": "Desarrollo de servicios web con tecnología Java (Spring) y despliegue en producción. Migración de servicios on-premise a AWS, mejorando la escalabilidad y disponibilidad.",
+            "tags": [
+                "Java Spring",
+                "SQL",
+                "Linux",
+                "AWS"
+            ]
+        },
+        {
+            "date": "Nov 2018 – Mayo 2019",
+            "title": "UIPATH automation",
+            "company": "Gentera",
+            "location": "CDMX",
+            "description": "Mantenimiento y monitoreo de robots creados con un Orchestrator.",
+            "tags": [
+                "Uipath",
+                "VBasic",
+                "Automation process"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Game Poleana",
+            "description": "Juego de mesa online copn librerias three.js y backend con Python.",
+            "link": "juegopoleana.com",
+            "github": "https://github.com/raulisai",
+            "image": "/projects/poleana.png",
+            "tags": [
+                "Svelte",
+                "Three.js",
+                "Python"
+            ]
+        },
+        {
+            "title": "Guia IPN",
+            "description": "Guia de la universidad IPN usando IA para crear un maestro digital.",
+            "link": "guiaipn.digital",
+            "github": "https://github.com/raulisai/guiaipn-web",
+            "image": "/projects/guiaipn.png",
+            "tags": [
+                "Svelte",
+                "Tailwind CSS",
+                "API OpenIA",
+                "python"
+            ]
+        },
+        {
+            "title": "IAM ",
+            "description": "Plataforma de gestión de tiempo para llegar a metas estilo juego potenciado con IA.",
+            "link": "https://github.com/raulisai/iam-web",
+            "github": "https://github.com/raulisai/iam-web",
+            "image": "/projects/iam.png",
+            "tags": [
+                "Svelte",
+                "Tailwind CSS",
+                "API OpenIA",
+                "python"
+            ]
+        },
+        {
+            "title": "Router IA",
+            "description": "Router IA para gestionar el tráfico de red con IA.",
+            "link": "https://github.com/raulisai/router-ia",
+            "github": "https://github.com/raulisai/router-ia",
+            "image": "/projects/router-ia.png",
+            "tags": [
+                "Svelte",
+                "Tailwind CSS",
+                "API OpenIA",
+                "python"
+            ]
+        }
+    ],
+    "skills": {
+        "technical": [
+            "Python",
+            "Bash",
+            "SQL",
+            "Linux",
+            "AWS",
+            "Jenkins",
+            "Ansible",
+            "Kubernetes",
+            "API-REST/GraphQL",
+            "Kibana",
+            "Git"
+        ],
+        "familiar": [
+            "Spark/Hadoop",
+            "MCP-servers",
+            "Codex",
+            "RAG-systems",
+            "scikit-learn",
+            "TensorFlow",
+            "LangChain"
+        ],
+        "soft": [
+            "Autodidacta",
+            "Analítico",
+            "Pensador creativo",
+            "Orientado a la resolución de problemas"
+        ],
+        "languages": [
+            "Inglés nivel B1",
+            "Español nativo"
+        ]
+    },
+    "education": [
+        {
+            "institution": "INSTITUTO POLITÉCNICO NACIONAL",
+            "date": "2018 - trunco",
+            "description": "ESIA-ING.CIVIL – Estudios no concluidos (7mo semestre)"
+        }
+    ],
+    "profiles": {
+        "RS_GLOBAL": {
+            "lang": "en",
+            "showEmail": false,
+            "roleOverride": "Senior DevOps & SRE",
+            "summaryOverride": "Experienced Software Engineer with a focus on global infrastructure and SRE practices."
+        },
+        "ADMIN_VIEW": {
+            "lang": "es",
+            "showEmail": true,
+            "roleOverride": "Administrador de Sistemas",
+            "summaryOverride": "Ingeniero especializado en administración y automatización de sistemas complejos."
+        }
+    }
+}
