@@ -9,7 +9,7 @@ import { getProfile } from "@/lib/profiles";
 const code = Astro.url.searchParams.get("code");
 const { projects, t } = getProfile(code);
 
-const TAGS = {
+const TAGS: Record<string, { name: string; class: string; icon: any }> = {
   NEXT: {
     name: "Next.js",
     class: "bg-black text-white",
@@ -54,9 +54,9 @@ const TAGS = {
           </h3>
           <div class="flex flex-wrap mt-2">
             <ul class="flex flex-row mb-2 gap-x-2">
-              {tags.map((tagKey) => {
+              {tags.map((tagKey: string) => {
                 const upperKey = tagKey.toUpperCase().replace(/\s/g, "");
-                const tag = (TAGS as any)[upperKey] || {
+                const tag = TAGS[upperKey] || {
                   name: tagKey,
                   class: "bg-gray-700 text-white",
                   icon: Link,

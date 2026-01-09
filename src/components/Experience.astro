@@ -7,7 +7,7 @@ const { experience } = getProfile(code);
 
 <ol class="relative mt-16">
   {
-    experience.map((experience) => (
+    experience.map((experience: any) => (
       <li class="">
         <ExperienceItem {...experience} />
       </li>

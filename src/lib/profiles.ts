@@ -2,6 +2,58 @@ import data from "../components/data.json";
 
 export type ProfileCode = keyof typeof data.profiles | "default";
 
+export interface Experience {
+    date: string;
+    title: string;
+    company: string;
+    description: string;
+    tags: string[];
+}
+
+export interface Project {
+    title: string;
+    description: string;
+    link: string;
+    github: string;
+    image: string;
+    tags: string[];
+}
+
+export interface PersonalInfo {
+    name: string;
+    label: string;
+    image: string;
+    email: string;
+    phone: string;
+    location: string;
+    linkedin: string;
+    github: string;
+    summary: string;
+}
+
+export interface Skills {
+    technical: string[];
+    familiar: string[];
+    soft: string[];
+    languages: string[];
+}
+
+export interface Education {
+    institution: string;
+    date: string;
+    description: string;
+}
+
+export interface ProfileData {
+    personalInfo: PersonalInfo;
+    experience: Experience[];
+    projects: Project[];
+    skills: Skills;
+    education: Education[];
+    lang: string;
+    t: (key: string) => string;
+}
+
 /**
  * Recursively resolves objects with { es, en } keys based on the target language.
  */
@@ -23,7 +75,7 @@ const resolveTranslations = (obj: any, lang: string): any => {
     return obj;
 };
 
-export const getProfile = (code: string | null) => {
+export const getProfile = (code: string | null): ProfileData => {
     const profiles = data.profiles as any;
     const profile = (code && profiles[code]) ? profiles[code] : null;
     const lang = profile?.lang || "es";
@@ -40,7 +92,7 @@ export const getProfile = (code: string | null) => {
         },
         lang,
         t: (key: string) => {
-            const translations: any = {
+            const translations: Record<string, Record<string, string>> = {
                 es: {
                     experiencia: "Experiencia",
                     proyectos: "Proyectos",
