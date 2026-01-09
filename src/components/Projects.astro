@@ -4,9 +4,10 @@ import NextJS from "./icons/NextJS.astro";
 import Tailwind from "./icons/Tailwind.astro";
 import Link from "./icons/Link.astro";
 import LinkButton from "./LinkButton.astro";
-import data from "./data.json";
+import { getProfile } from "@/lib/profiles";
 
-const { projects } = data;
+const code = Astro.url.searchParams.get("code");
+const { projects, t } = getProfile(code);
 
 const TAGS = {
   NEXT: {
@@ -80,13 +81,13 @@ const TAGS = {
               {github && (
                 <LinkButton href={github}>
                   <GitHub class="size-6" />
-                  Code
+                  {t("codigo")}
                 </LinkButton>
               )}
               {link && (
                 <LinkButton href={link}>
                   <Link class="size-4" />
-                  Preview
+                  {t("ver")}
                 </LinkButton>
               )}
             </footer>

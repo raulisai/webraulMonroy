@@ -1,22 +1,33 @@
 {
     "personalInfo": {
         "name": "RAUL ISAI MONRROY ROMERO",
-        "label": "Software Engineer",
+        "label": {
+            "es": "Software Engineer",
+            "en": "Software Engineer"
+        },
         "image": "/me.jpg",
         "email": "raulisai97@gmail.com",
         "phone": "55 7617 6856",
         "location": "CDMX",
         "linkedin": "https://www.linkedin.com/in/raul-isai-monroy-romero-39b58a167/",
         "github": "https://github.com/raulisai",
-        "summary": "Software Engineer specializing in DevOps, Site Reliability Engineering, and Web Development. Proven track record in optimizing cloud infrastructure, implementing CI/CD pipelines, and developing scalable web applications."
+        "summary": {
+            "es": "Software Engineer especializado en DevOps, Site Reliability Engineering y Desarrollo Web. Trayectoria probada en optimización de infraestructura cloud, implementación de pipelines CI/CD y desarrollo de aplicaciones web escalables.",
+            "en": "Software Engineer specializing in DevOps, Site Reliability Engineering, and Web Development. Proven track record in optimizing cloud infrastructure, implementing CI/CD pipelines, and developing scalable web applications."
+        }
     },
     "experience": [
         {
             "date": "DIC 2022 – Actualidad",
-            "title": "DevOps",
+            "title": {
+                "es": "DevOps",
+                "en": "DevOps"
+            },
             "company": "Santander",
-            "location": "CDMX",
-            "description": "Cultura DevOps con metodologías ágiles. Reconfiguración automatizada de servicios de clúster mediante scripts, logrando una reducción de hasta el 30% en el consumo de recursos.",
+            "description": {
+                "es": "Cultura DevOps con metodologías ágiles. Reconfiguración automatizada de servicios de clúster mediante scripts, logrando una reducción de hasta el 30% en el consumo de recursos.",
+                "en": "DevOps culture with agile methodologies. Automated reconfiguration of cluster services via scripts, achieving up to 30% reduction in resource consumption."
+            },
             "tags": [
                 "Python",
                 "Openshift",
@@ -26,10 +37,15 @@
         },
         {
             "date": "Nov 2020 - Dic 2022",
-            "title": "Site Reliability Engineer",
+            "title": {
+                "es": "Site Reliability Engineer",
+                "en": "Site Reliability Engineer"
+            },
             "company": "Televisa",
-            "location": "CDMX",
-            "description": "Realización de despliegues en producción y resolución de incidentes críticos para asegurar la confiabilidad del servicio. Despliegue de aplicaciones en AWS y on-premise.",
+            "description": {
+                "es": "Realización de despliegues en producción y resolución de incidentes críticos para asegurar la confiabilidad del servicio. Despliegue de aplicaciones en AWS y on-premise.",
+                "en": "Production deployments and critical incident resolution to ensure service reliability. Application deployment on AWS and on-premise."
+            },
             "tags": [
                 "Microservicios",
                 "AWS CI/CD",
@@ -38,10 +54,15 @@
         },
         {
             "date": "Mayo 2019 – Nov 2020",
-            "title": "Web developer",
+            "title": {
+                "es": "Web developer",
+                "en": "Web developer"
+            },
             "company": "Indra Sistemas",
-            "location": "CDMX",
-            "description": "Desarrollo de servicios web con tecnología Java (Spring) y despliegue en producción. Migración de servicios on-premise a AWS, mejorando la escalabilidad y disponibilidad.",
+            "description": {
+                "es": "Desarrollo de servicios web con tecnología Java (Spring) y despliegue en producción. Migración de servicios on-premise a AWS, mejorando la escalabilidad y disponibilidad.",
+                "en": "Web service development with Java (Spring) and production deployment. Migration of on-premise services to AWS, improving scalability and availability."
+            },
             "tags": [
                 "Java Spring",
                 "SQL",
@@ -51,10 +72,15 @@
         },
         {
             "date": "Nov 2018 – Mayo 2019",
-            "title": "UIPATH automation",
+            "title": {
+                "es": "UIPATH automation",
+                "en": "UIPATH automation"
+            },
             "company": "Gentera",
-            "location": "CDMX",
-            "description": "Mantenimiento y monitoreo de robots creados con un Orchestrator.",
+            "description": {
+                "es": "Mantenimiento y monitoreo de robots creados con un Orchestrator.",
+                "en": "Maintenance and monitoring of robots created using an Orchestrator."
+            },
             "tags": [
                 "Uipath",
                 "VBasic",
@@ -65,7 +91,10 @@
     "projects": [
         {
             "title": "Game Poleana",
-            "description": "Juego de mesa online copn librerias three.js y backend con Python.",
+            "description": {
+                "es": "Juego de mesa online con librerías three.js y backend con Python.",
+                "en": "Online board game built with three.js libraries and a Python backend."
+            },
             "link": "juegopoleana.com",
             "github": "https://github.com/raulisai",
             "image": "/projects/poleana.png",
@@ -77,7 +106,10 @@
         },
         {
             "title": "Guia IPN",
-            "description": "Guia de la universidad IPN usando IA para crear un maestro digital.",
+            "description": {
+                "es": "Guia de la universidad IPN usando IA para crear un maestro digital.",
+                "en": "IPN University guide using AI to create a digital tutor."
+            },
             "link": "guiaipn.digital",
             "github": "https://github.com/raulisai/guiaipn-web",
             "image": "/projects/guiaipn.png",
@@ -89,8 +121,11 @@
             ]
         },
         {
-            "title": "IAM ",
-            "description": "Plataforma de gestión de tiempo para llegar a metas estilo juego potenciado con IA.",
+            "title": "IAM",
+            "description": {
+                "es": "Plataforma de gestión de tiempo para llegar a metas estilo juego potenciado con IA.",
+                "en": "Gamified time management platform to reach goals, powered by AI."
+            },
             "link": "https://github.com/raulisai/iam-web",
             "github": "https://github.com/raulisai/iam-web",
             "image": "/projects/iam.png",
@@ -103,7 +138,10 @@
         },
         {
             "title": "Router IA",
-            "description": "Router IA para gestionar el tráfico de red con IA.",
+            "description": {
+                "es": "Router IA para gestionar el tráfico de red con IA.",
+                "en": "AI Router to manage network traffic using Artificial Intelligence."
+            },
             "link": "https://github.com/raulisai/router-ia",
             "github": "https://github.com/raulisai/router-ia",
             "image": "/projects/router-ia.png",
@@ -138,22 +176,42 @@
             "TensorFlow",
             "LangChain"
         ],
-        "soft": [
-            "Autodidacta",
-            "Analítico",
-            "Pensador creativo",
-            "Orientado a la resolución de problemas"
-        ],
-        "languages": [
-            "Inglés nivel B1",
-            "Español nativo"
-        ]
+        "soft": {
+            "es": [
+                "Autodidacta",
+                "Analítico",
+                "Pensador creativo",
+                "Orientado a la resolución de problemas"
+            ],
+            "en": [
+                "Self-taught",
+                "Analytical",
+                "Creative thinker",
+                "Problem-solving oriented"
+            ]
+        },
+        "languages": {
+            "es": [
+                "Inglés nivel B1",
+                "Español nativo"
+            ],
+            "en": [
+                "English level B1",
+                "Native Spanish"
+            ]
+        }
     },
     "education": [
         {
             "institution": "INSTITUTO POLITÉCNICO NACIONAL",
-            "date": "2018 - trunco",
-            "description": "ESIA-ING.CIVIL – Estudios no concluidos (7mo semestre)"
+            "date": {
+                "es": "2018 - trunco",
+                "en": "2018 - Incomplete"
+            },
+            "description": {
+                "es": "ESIA-ING.CIVIL – Estudios no concluidos (7mo semestre)",
+                "en": "ESIA-Civil Engineering – Undergraduate studies (7th semester)"
+            }
         }
     ],
     "profiles": {

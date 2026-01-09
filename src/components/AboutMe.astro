@@ -1,8 +1,7 @@
 ---
 import { getProfile } from "@/lib/profiles";
 const code = Astro.url.searchParams.get("code");
-const data = getProfile(code);
-const { personalInfo } = data;
+const { personalInfo, skills, lang, t } = getProfile(code);
 const personalImageAlt = personalInfo.name;
 ---
 
@@ -17,17 +16,18 @@ const personalImageAlt = personalInfo.name;
     </p>
 
     <p>
-      Especializado en habilidades técnicas como <strong
-        >{data.skills.technical.slice(0, 5).join(", ")}</strong
-      > y familiarizado con <strong
-        >{data.skills.familiar.slice(0, 3).join(", ")}</strong
-      >.
+      {t("habilidades")}
+      <strong>{skills.technical.slice(0, 5).join(", ")}</strong>
+      {t("familiarizado")}
+      <strong>{skills.familiar.slice(0, 3).join(", ")}</strong>.
     </p>
 
     <p>
-      Como profesional me considero <strong
-        >{data.skills.soft.join(", ")}</strong
-      >. Hablo <strong>{data.skills.languages.join(" y ")}</strong>.
+      {t("profesional")}
+      <strong>{skills.soft.join(", ")}</strong>. {t("hablo")}
+      <strong
+        >{skills.languages.join(` ${lang === "en" ? "and" : "y"} `)}</strong
+      >.
     </p>
   </div>
 

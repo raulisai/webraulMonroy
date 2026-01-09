@@ -1,7 +1,8 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro";
-import data from "./data.json";
-const { experience } = data;
+import { getProfile } from "@/lib/profiles";
+const code = Astro.url.searchParams.get("code");
+const { experience } = getProfile(code);
 ---
 
 <ol class="relative mt-16">
